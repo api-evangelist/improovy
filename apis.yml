@@ -1,8 +1,26 @@
 aid: improovy
 name: Improovy
-description: Improovy is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Improovy is a Chicago-based prop-tech startup and digitally-native managed marketplace
+  that connects homeowners with vetted, professional painters and controls the end-to-end residential
+  and commercial painting experience. Founded in 2019 by CEO Andre Kazimierski, a third-generation
+  tradesman, the platform offers instant online quotes and covers interior and exterior house painting,
+  cabinet painting, drywall and plaster repair, staining, power washing, and specialty finishes across
+  markets in Illinois, Michigan, Colorado, Florida, and Wisconsin. Improovy is a consumer service brand
+  with no public developer program or API; this profile captures its web presence and domain-security
+  posture for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/improovy/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/649baabc39376b74baf34327/64f0238fbf3b074389c42bdf_Rectangle-Logo-Light-Blue-1800x1000-1.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Home Services
+- Marketplace
+- Painting
+- Prop-Tech
+- Construction
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/improovy-domain-security.yml
 - type: Website
   url: https://improovy.com/
+- type: Blog
+  url: https://www.improovy.com/blog
+- type: Support
+  url: https://www.improovy.com/contact
+- type: TermsOfService
+  url: https://www.improovy.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.improovy.com/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
